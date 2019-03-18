@@ -278,7 +278,7 @@ nav ul li a {
   background: black;
   color: white;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.3em;
   padding: 10px 25px;
   box-shadow: 5px 5px 0 var(--accent);
   transition: var(--defaultTransition);
