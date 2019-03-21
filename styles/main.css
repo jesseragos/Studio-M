@@ -7,7 +7,7 @@
   --formField: #0c0c0c;
   --navBG: #ffffffab;
   --defaultTransition: 0.5s ease;
-  /* --heroTitleShadow: #404040; */
+  --heroTitleShadow: #404040;
 }
 
 *,
@@ -152,8 +152,8 @@ nav ul li a {
 }
 
 .hero-area h1 {
-  /* text-shadow: 0 6px 0 var(--heroTitleShadow); */
-  text-shadow: -3px 0 0 var(--accent), 5px 2px 0 var(--primary);
+  text-shadow: 0 6px 0 var(--heroTitleShadow);
+  /* text-shadow: -3px 0 0 var(--accent), 5px 2px 0 var(--primary); */
   letter-spacing: 0.8px;
   line-height: 1.3em;
   color: white;
@@ -458,14 +458,14 @@ footer > section,
   padding-bottom: 1em;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 813px) {
   nav ul li:last-child {
     margin-right: 0;
   }
 }
 
 /* Tablet */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
   h1,
   h2 {
     font-size: 2.5em;
