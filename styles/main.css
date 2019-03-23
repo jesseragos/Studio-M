@@ -57,7 +57,7 @@ header {
   /* background: #ff4545; */
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom center;
   min-height: 100vh;
   max-width: 100%;
   /* filter: alpha(opacity=50); */
